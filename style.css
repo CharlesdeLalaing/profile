@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura&family=Kodchasan&family=Pavanam&display=swap');
+@import url('https://kit.fontawesome.com/eba235254c.js');
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #ffeadb;
+}
+
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: #ffeadb;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: #ffeadb;
+    }
+  }
+
+h1, h2 {
+    font-family: 'Pavanam', sans-serif;
+}
+
+h1 {
+    color: #14274e ;
+}
+
+h2 {
+    color: #14274e ;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ADCFCB;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+div {
+    background: white;
+    padding: 24px ;
+    margin: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.img-circle {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.link_wagon {
+    background-color: #ADCFCB;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link_wagon:hover {
+    background-color: #14274e;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-inline {
+    list-style: none;
+    padding: 8px 24px;
+}
+
+.list-inline > li {
+    display: inline-block;
+
+}
+
+.list-inline {
+    font-size: 30px;
+    color: rgb(220, 220, 220);
+}
+
+
+.magazine {
+    background-color: #ADCFCB;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.magazine:hover {
+    background-color: #14274e;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
